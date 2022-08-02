@@ -1,5 +1,13 @@
+import Navi from "../nav/Navi";
+import { Container } from "reactstrap";
+import Dashbord from "./Dashbord";
 function App() {
-  return <div>asd</div>;
+  return (
+    <Container>
+      <Navi />
+      <Dashbord/>
+    </Container>
+  );
 }
 
 export default App;
